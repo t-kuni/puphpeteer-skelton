@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ad39973a0e75257391d43f4852f69dd3",
+    "content-hash": "c682547b6c19889fcc4da1e19d9a1ee4",
     "packages": [
         {
             "name": "clue/socket-raw",
@@ -60,6 +60,61 @@
                 "unix"
             ],
             "time": "2019-01-22T11:08:01+00:00"
+        },
+        {
+            "name": "markrogoyski/simplelog-php",
+            "version": "v0.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/markrogoyski/simplelog-php.git",
+                "reference": "2cc0a02729cca0385769982c53432b88bb4bcda7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/markrogoyski/simplelog-php/zipball/2cc0a02729cca0385769982c53432b88bb4bcda7",
+                "reference": "2cc0a02729cca0385769982c53432b88bb4bcda7",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=7.0.0",
+                "psr/log": "1.1.*"
+            },
+            "require-dev": {
+                "php-coveralls/php-coveralls": "^2.0",
+                "phploc/phploc": "*",
+                "phpmd/phpmd": "^2.6",
+                "phpstan/phpstan": "*",
+                "phpunit/phpunit": "6.*",
+                "squizlabs/php_codesniffer": "3.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SimpleLog\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Rogoyski",
+                    "email": "mark@rogoyski.com",
+                    "homepage": "https://github.com/markrogoyski",
+                    "role": "Lead Developer"
+                }
+            ],
+            "description": "Powerful PSR-3 logging. So easy, it's simple.",
+            "homepage": "https://github.com/markrogoyski/simplelog-php/",
+            "keywords": [
+                "log",
+                "logger",
+                "logging",
+                "psr-3"
+            ],
+            "time": "2019-08-11T03:25:31+00:00"
         },
         {
             "name": "nesk/puphpeteer",
