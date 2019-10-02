@@ -15,4 +15,4 @@ COPY app /app
 
 WORKDIR /app
 
-CMD ["php", "/app/main.php"]
+CMD ["php", "/app/entrypoint.php"]
