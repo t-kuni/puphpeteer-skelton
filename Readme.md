@@ -1,13 +1,13 @@
 # Build
 
 ```
-docker build --tag anki-card-generator .
+docker-compose build app
 ```
 
 # Run
 
 ```
-docker run --rm anki-card-generator
+docker-compose run --rm app
 ```
 
 # Boot shell

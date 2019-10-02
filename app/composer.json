@@ -1,5 +1,6 @@
 {
     "require": {
-        "nesk/puphpeteer": "^1.6"
+        "nesk/puphpeteer": "^1.6",
+        "vlucas/phpdotenv": "^3.6"
     }
 }
